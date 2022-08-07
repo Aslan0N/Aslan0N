@@ -1,17 +1,22 @@
 html, body{
     margin:0 ;
+    scroll-behavior: smooth;
+    background-color: rgb(254, 254, 254);
 }
+
 .header{
    background-color: #fdf2e9;
    width:100vw ;
    height:80px ;
    margin: 0;
+   position: relative;
    
 }
 .header img{
     width: 122px;
     height: 16px;
     margin: 27px 36px;
+    cursor: pointer;
 }
 .body{
     width: 100vw;
@@ -52,17 +57,40 @@ html, body{
     position: absolute;
     top: 400px;
     left: 170px;
+    overflow: hidden;
+
+    
 }
 .link a:nth-child(2){
     margin-left: 10px;
-    background-color: #fff;
     color: #000;
+    transition: 300ms;
+    padding-right: -5px;
+    background-color: #fff;
+
 }
 .link a:nth-child(1){
    background-color: #e67e22;
    color: #fff;
-}
+   transition: 300ms;
+   box-sizing: border-box;
+   overflow: hidden;
 
+
+}
+.link a:nth-child(1):hover{
+    background-color: #c4722a;
+    transition: 300ms;
+
+
+
+}
+.link a:nth-child(2):hover{
+    background-color: #fdf2e9;
+    border: 2px solid #fff;
+    transition: 300ms;
+
+}
 .link a{
    display: inline-block;
    width: 160px;
@@ -75,12 +103,13 @@ html, body{
    font-family: "Rubik", sans-serif;
    font-weight: 600;
    margin: 0;
-   box-sizing:content-box;
+   padding-bottom: 30px;
+   box-sizing: border-box;
 
 }
-.link a:nth-child(1):focus{
+.link a:focus{
     border: 5px solid #f6b77f7c;
-    
+
 }
 .img-div{
     position: absolute;
@@ -217,6 +246,24 @@ html, body{
     margin-top: 35px;
     color: #555;
 }
+.works1{
+    position: absolute;
+    top: 200px;
+    right:315px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #d2a98539;
+}
+.works2{
+    position: absolute;
+    top: 230px;
+    right:345px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #dd8c453e;
+}
 #how-it-works img{
     width: 140.6px;
     height: 280.4px;
@@ -224,4 +271,350 @@ html, body{
     top: 180px;
     left: 780px;
     
+}
+.div-a{
+    position: absolute;
+    top: 27px;
+    right: 25px;
+    
+}
+.div-a a{
+    margin-right: 33px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 300ms;
+}
+.div-a a:nth-child(5){
+    color: #fff;
+    background-color: #e67e22;
+    padding: 8px 19px;
+    border-radius: 7px;
+}
+.div-a a:hover{
+    color: #cf711f;
+    transition: 300ms;
+}
+.div-a a:nth-child(5):hover{
+    background-color: #c4722a;
+    color: #fff;
+    transition: 300ms;
+}
+.image{
+    position: absolute;
+    top: 180px;
+    left: 780px;
+}
+.meals{
+    width: 100vw;
+    height: 180px;
+    position: relative;
+}
+.meals .no1{
+    position: absolute;
+    top: -40px;
+    left: 310px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #d2a98539;
+}
+.meals .no2{
+    position: absolute;
+    top: -10px;
+    left: 340px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #dd8c453e;
+}
+.meals img{
+    width: 140.6px;
+    height: 280.4px;
+    position: absolute;
+    top: -60px;
+    left: 355px;
+}
+.meals h1{
+    position: absolute;
+    top: -90px;
+    right: 540px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.2;
+    color: #ccc; 
+}
+.meals h2{
+    position: absolute;
+    top: 10px;
+    right: 240px;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+}
+.meals  p{
+    position: absolute;
+    top: 50px;
+    right: 205px;
+    width: 410px;
+    height: 129.56;
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 35px;
+    color: #555;
+}
+.top{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+.top1{
+    position: absolute;
+    top: 150px;
+    right:315px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #d2a98539;
+}
+.top2{
+    position: absolute;
+    top: 180px;
+    right:345px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #dd8c453e;
+}
+.top img{
+    width: 140.6px;
+    height: 280.4px;
+    position: absolute;
+    top: 130px;
+    left: 780px;
+}
+.top h1{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 70px;
+    color: #ccc;
+    font-family: "Rubik", sans-serif;
+}
+.top h2{
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    font-size: 25px;
+    color: #333;
+    font-family: "Rubik", sans-serif;
+}
+.top p{
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    width: 410px;
+    height: 129.56;
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 35px;
+    color: #555;
+}
+#meals{
+    position: relative;
+
+}
+#meals h4{
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    font-family:"Rubik", sans-serif ;
+    color: #cf711f;
+    font-size: 12px;
+    font-weight: 600;
+}
+#meals h2{
+    position: absolute;
+    top: 45px;
+    left: 300px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:"Rubik", sans-serif ;
+    color: #333;
+}
+.meal{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    width: 282px;
+    height: 390.30px;
+    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+    border-radius: 11px;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+.meal img{
+    width: 282px;
+    height: 170.15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.meal .content{
+    width: 282px;
+    height: 290.15px;
+    background-color: #fff;
+    margin-top: 0;
+    padding-top: 0;
+}
+.meal:hover{
+    transform: translateY(-10px);
+    transition: 500ms;
+}
+.content span{
+    display: inline-block;
+    background-color: #51cf66;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 120px;
+    padding: 3px 7px;
+    font-family:"Rubik", sans-serif ;
+
+}
+.content h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 40px;
+    font-family:"Rubik", sans-serif ;
+    font-weight: 600;
+}
+.content li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-family:"Rubik", sans-serif ;
+    color: #555;
+}
+.meal2{
+    position: absolute;
+    top: 200px;
+    right: 460px;
+    width: 282px;
+    height: 390.30px;
+    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+    border-radius: 11px;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+.meal2 img{
+    width: 282px;
+    height: 170.15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.meal2 .content2{
+    width: 282px;
+    height: 290.15px;
+    background-color: #fff;
+    margin-top: 0;
+    padding-top: 0;
+}
+.meal2:hover{
+    transform: translateY(-10px);
+    transition: 500ms;
+}
+.content2 span:nth-of-type(1){
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    font-size: 10px;
+    padding:3px 7px ;
+    background-color: #94d82d;
+    border-radius: 100px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+.content2 span:nth-of-type(2){
+    position: absolute;
+    top: 190px;
+    left: 84px;
+    font-size: 10px;
+    padding:3px 7px ;
+    background-color: #ffd43b;
+    border-radius: 100px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+.content2 h1{
+    position: absolute;
+    top: 210px;
+    left: -10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 40px;
+    font-family:"Rubik", sans-serif ;
+    font-weight: 600;
+}
+.content2 ul{
+    position: absolute;
+    top: 245px;
+    left: 0;
+}
+.content2 li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-family:"Rubik", sans-serif ;
+    color: #555;
+}
+.ul-media{
+    position: absolute;
+    top: 240px;
+    right: 170px;
+    list-style: none;
+    background-color: #fff;
+    width: 210px;
+    height: 310px;
+}
+.ul-media li{
+    margin-bottom: 20px;
+    font-family:"Rubik", sans-serif ;
+    color: #555;
+    font-size: 13px;
+
+}
+h5{
+    position: absolute;
+    top: 170px;
+    right: 170px;
+    font-size: 20px;
+    font-family:"Rubik", sans-serif ;
+    font-weight: 600;
+    background-color: white;
+    width: 250px;
+    height: 60px;
+}
+.recipes{
+    position: absolute;
+    top: 2700px;
+    left: 40%;
+    color: #cf711f;
+    font-family:"Rubik", sans-serif ;
+    font-weight: 200;
+    font-size: 14px;
+}
+.recipes:hover{
+    text-decoration: none;
+}
+#testimonials{
+    width: 100vw;
+    height: 1000px;
+    background-color: #fdf2e9;
 }
