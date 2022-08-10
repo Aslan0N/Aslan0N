@@ -3,11 +3,8 @@ html, body{
     width: 100%;
    
 }
-
-
-
 .header{
-    width: 1263px;
+    width: 100vw;
     height: 55px;
     background-color: #262626;
     position: fixed;
