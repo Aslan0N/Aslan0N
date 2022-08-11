@@ -144,7 +144,7 @@ header ul a:nth-of-type(2):hover{
     font-weight: 600;
 }
 .featured {
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top:50px ;
 }
 .featured img{
@@ -154,23 +154,32 @@ header ul a:nth-of-type(2):hover{
 }
 .featured img:nth-of-type(1){
     width:224.79px ;
-    height: 32px; ;
+    height: 32px; 
+    margin-right: 40px;
 }
 .featured img:nth-of-type(2){
     width:100.79px;
     height: 32px;
+    margin-right: 40px;
+
 }
 .featured img:nth-of-type(3){
     width:243.6px ;
-    height: 32px;
+    height: 32px;    
+    margin-right: 40px;
+
 }
 .featured img:nth-of-type(4){
     width: 122.39px;
     height: 32px;
+    margin-right: 40px;
+
 }
 .featured img:nth-of-type(5){
     width:171.19px ;
     height: 32px;
+    margin-right: 40px;
+
 }
 .featured div{
     margin-left:40% ;
@@ -180,4 +189,128 @@ header ul a:nth-of-type(2):hover{
     font-weight: 600;
     filter: brightness(0);
     opacity: 50%;
+}
+#how{
+    position: relative;
+
+}
+#how p{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font: 12px "Rubik", sans-serif;
+    color: #cf711f;
+    font-weight: 600;
+}
+#how h2{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font: 30px "Rubik", sans-serif;
+    color: #333;
+    font-weight: 800;
+}
+.section-main1{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+.section-main1 h1{
+    font: 55px "Rubik", sans-serif;
+    color: #ddd;
+    font-weight: 800;
+}
+.section-main1 h3{
+    font: 25px "Rubik", sans-serif;
+    color: #333;
+    font-weight: 600;
+
+}
+.section-main1 span{
+    margin-top: 15px;
+    font: 14px "Rubik", sans-serif;
+    color:#555 ;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    line-height: 25px;
+
+}.section-main1 img{
+    width: 140px;
+    height: 280px;
+    margin-left: 230px;
+}
+.main-img1{
+    position: absolute;
+    top: 10px;
+    left: 380px;
+}
+.section-main2{
+    position: absolute;
+    top: 630px;
+    left: 600px;
+}
+.section-main2 h1{
+    font: 55px "Rubik", sans-serif;
+    color: #ddd;
+    font-weight: 800;
+}
+.section-main2 h3{
+    font: 25px "Rubik", sans-serif;
+    color: #333;
+    font-weight: 600;
+
+}
+.section-main2 span{
+    margin-top: 15px;
+    font: 14px "Rubik", sans-serif;
+    color:#555 ;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    line-height: 25px;
+
+}.section-main2 img{
+    width: 140px;
+    height: 280px;
+}
+.main-img2{
+    position: absolute;
+    top: 10px;
+    left: -320px;
+}
+.section-main3{
+    position: absolute;
+    top: 980px;
+    left: 200px;
+}
+.section-main3 h1{
+    font: 55px "Rubik", sans-serif;
+    color: #ddd;
+    font-weight: 800;
+}
+.section-main3 h3{
+    font: 25px "Rubik", sans-serif;
+    color: #333;
+    font-weight: 600;
+
+}
+.section-main3 span{
+    margin-top: 15px;
+    font: 14px "Rubik", sans-serif;
+    color:#555 ;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    line-height: 25px;
+
+}.section-main3 img{
+    width: 140px;
+    height: 280px;
+    margin-left: 230px;
+}
+.main-img3{
+    position: absolute;
+    top: 10px;
+    left: 380px;
 }
