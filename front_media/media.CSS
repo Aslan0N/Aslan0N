@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+}
+.card1 img{
+    width: 240px;
+    height: 220px;
+    transition: 500ms;
+}
+
+.card1{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+
+}
+ .card1 img:hover{
+    transform: rotate(-5deg) scale(1.1);
+    transition: 500ms;
+}
+.card1 .media{
+    background-color: rgba(0, 0, 0, 0.468);
+    width: 240px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 220px;
+    transition: 500ms;
+}
+.card1 .media h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.card1 .media p{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.card1 img:hover+.media{
+    top: 120px;
+    height: 100px;
+    transition: 500ms;
+}
+.card1 img:hover+.media h2{
+    display: block;
+}
+.card1 img:hover+.media p{
+    display: block;
+}
