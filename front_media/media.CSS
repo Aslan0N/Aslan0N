@@ -1,58 +1,49 @@
-*{
+html, body{
     margin: 0;
     padding: 0;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-.container{
-    display: flex;
-}
-.card1 img{
-    width: 240px;
-    height: 220px;
-    transition: 500ms;
-}
-
-.card1{
-    width: 230px;
-    height: 200px;
+header{
+    width: 98.5vw;
+    height: 54px;
+    background-color: #262626;
     position: relative;
-    overflow: hidden;
+}
+header img{
+    width: 152px;
+    height: 18px;
+    margin: 18px 20px;
+}
+header a{
+    margin-right:20px ;
+    color: white;
+    background-color: #82b440;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    transition: 300ms;
 
 }
- .card1 img:hover{
-    transform: rotate(-5deg) scale(1.1);
-    transition: 500ms;
+header a:hover{
+    background-color: #74a534;
+    transition: 300ms;
 }
-.card1 .media{
-    background-color: rgba(0, 0, 0, 0.468);
-    width: 240px;
-    height: 10px;
-    position: absolute;
-    left: 0;
-    top: 220px;
-    transition: 500ms;
+.header img{
+    width: 88px;
+    height: 25.29px;
+    z-index: 5;
 }
-.card1 .media h2{
-    font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
-}
-.card1 .media p{
-    font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
-}
-.card1 img:hover+.media{
-    top: 120px;
-    height: 100px;
-    transition: 500ms;
-}
-.card1 img:hover+.media h2{
-    display: block;
-}
-.card1 img:hover+.media p{
-    display: block;
+.photo{
+    width: 98.5vw;
+    height: 550px;
+    background: url(coklu_fon.jpg) no-repeat;
+    background-size: cover;
+    filter: brightness(.3);
+    
+    
 }
