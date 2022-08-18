@@ -48,7 +48,11 @@ header a:hover{
     
     
 } */
-html, body{
+
+
+
+
+/* html, body{
     height: 100%;
 }
 .container img{
@@ -106,4 +110,65 @@ img:nth-of-type(4){
     z-index: 1;
     overflow: hidden;
 }
+ */
+.container{
+    margin: 300px;
+    width: 668px;
+    height: 324px;
+    position: relative;
+    overflow: hidden;
+}
+.title h2{
+    display: none;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.container:hover .title h2{
+    display: inline-block;
+}
 
+.title{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    background-color:rgba(0, 128, 0, 0.416);
+    width: 1px;    
+    height: 1px;
+    transition: 2s;
+
+}
+.container:hover .title{
+    width: 668px;
+    height: 324px;
+    transition: 2s;
+    top: 0;
+    transition: 2s;
+}
+.container:hover .line-left{
+    width: 668px;
+    transition: 2s;
+
+}
+.container .line-left{
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width:0 ;
+    height: 2px;
+    background-color: #fff;
+    transition: 2s;
+
+}
+.container:hover .line-top{
+    height: 328px;
+}
+.container .line-top{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: 0;
+    width: 2px;
+    background-color: #fff;
+    transition: 2s;
+
+}
