@@ -1,4 +1,4 @@
-html, body{
+/* html, body{
     margin: 0;
     padding: 0;
 }
@@ -33,10 +33,11 @@ header a:hover{
     background-color: #74a534;
     transition: 300ms;
 }
+
 .header img{
     width: 88px;
     height: 25.29px;
-    z-index: 5;
+
 }
 .photo{
     width: 98.5vw;
@@ -46,4 +47,63 @@ header a:hover{
     filter: brightness(.3);
     
     
+} */
+html, body{
+    height: 100%;
 }
+.container img{
+    width: 170px;
+    height: 170px;
+    margin: 29px;
+    transition: 300ms;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 30%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+img:nth-of-type(1){
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+img:nth-of-type(2){
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left:  0;
+}
+img:nth-of-type(3){
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    top:  0;
+    right: 0;
+}
+img:nth-of-type(4){
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.container img:hover{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
