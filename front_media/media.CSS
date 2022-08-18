@@ -1,58 +1,4 @@
-/* html, body{
-    margin: 0;
-    padding: 0;
-}
-header{
-    width: 98.5vw;
-    height: 54px;
-    background-color: #262626;
-    position: relative;
-}
-header img{
-    width: 152px;
-    height: 18px;
-    margin: 18px 20px;
-}
-header a{
-    margin-right:20px ;
-    color: white;
-    background-color: #82b440;
-    padding: 8px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    position: absolute;
-    right: 0;
-    top: 10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-size: 14px;
-    transition: 300ms;
-
-}
-header a:hover{
-    background-color: #74a534;
-    transition: 300ms;
-}
-
-.header img{
-    width: 88px;
-    height: 25.29px;
-
-}
-.photo{
-    width: 98.5vw;
-    height: 550px;
-    background: url(coklu_fon.jpg) no-repeat;
-    background-size: cover;
-    filter: brightness(.3);
-    
-    
-} */
-
-
-
-
-/* html, body{
+html, body{
     height: 100%;
 }
 .container img{
@@ -110,8 +56,8 @@ img:nth-of-type(4){
     z-index: 1;
     overflow: hidden;
 }
- */
-.container{
+
+.main{
     margin: 300px;
     width: 668px;
     height: 324px;
@@ -123,7 +69,7 @@ img:nth-of-type(4){
     margin-left: 100px;
     margin-top: 50px;
 }
-.container:hover .title h2{
+.main:hover .title h2{
     display: inline-block;
 }
 
@@ -137,19 +83,19 @@ img:nth-of-type(4){
     transition: 2s;
 
 }
-.container:hover .title{
+.main:hover .title{
     width: 668px;
     height: 324px;
     transition: 2s;
     top: 0;
     transition: 2s;
 }
-.container:hover .line-left{
+.main:hover .line-left{
     width: 668px;
     transition: 2s;
 
 }
-.container .line-left{
+.main .line-left{
     position: absolute;
     top: 280px;
     left: 0;
@@ -159,10 +105,10 @@ img:nth-of-type(4){
     transition: 2s;
 
 }
-.container:hover .line-top{
+.main:hover .line-top{
     height: 328px;
 }
-.container .line-top{
+.main .line-top{
     position: absolute;
     top: 0;
     left: 50px;

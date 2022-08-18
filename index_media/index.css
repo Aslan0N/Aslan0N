@@ -1,0 +1,168 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 98.5vw;
+    height: 54px;
+    background-color: #262626;
+    position: relative;
+}
+header img{
+    width: 152px;
+    height: 18px;
+    margin: 18px 20px;
+}
+header a{
+    margin-right:20px ;
+    color: white;
+    background-color: #82b440;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    transition: 300ms;
+}
+header a:hover{
+    background-color: #74a534;
+    transition: 300ms;
+}
+.header img{
+    width: 88px;
+    height: 25.29px;
+}
+.photo{
+    width: 98.5vw;
+    height: 550px;
+    background: url(Rapper.jpg) no-repeat;
+    background-size: cover;
+} 
+.photo .opacity{
+    width: 98.5vw;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.707);
+}
+.header {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+}
+.header ul{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    margin-left: 385px;
+    margin-top: -20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.header a{
+    text-decoration: none;
+}
+.header li{
+    margin-right: 35px;
+    color: #fff;
+    transition: 800ms;
+}
+.header li:hover{
+    color: rgb(194, 194, 194);
+}
+.title{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.title p:nth-of-type(2){
+    font: 24px "Poppins", sans-serif;
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title p:nth-of-type(1){
+    font: 16px "Poppins", sans-serif;
+    color: #f8f8f8;
+    text-align: center;
+}
+.title h1{
+    font: 50px "Poppins", sans-serif;
+    color: #f8f8f8;
+    font-weight: 600;
+}
+.title a{
+    font: 16px "Poppins", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 52px;
+    background-color: #56cfe1;
+    border-radius: 50px  ;
+    transition: 800ms;
+}
+.title a:nth-of-type(1){
+    border: #56cfe1 2px solid;
+    margin-right: 20px;
+    margin-left: 120px;
+
+}
+.title a:nth-of-type(2){
+    background-color: transparent;
+    border: #fff 2px solid;
+}
+.title a:nth-of-type(1):hover{
+    background-color:#3092a1;
+    border-color: #3092a1;
+}
+.title a:nth-of-type(2):hover{
+    border: #56cfe1 2px solid;
+    background-color: #56cfe1;
+}
+.claue_title{
+    width: 592px;
+    height: 350px;
+}
+.claue_title h1{
+    font: 24px "Poppins", sans-serif;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
+.claue{
+    display: flex;
+}
+.claue img{
+    width: 631px;
+    height: 350px;
+}
+.claue_title p:nth-of-type(1){
+    font: 18px "Poppins", sans-serif;
+    color: #415b5b;
+    margin-left: 40px;
+    line-height: 27px;
+}
+.claue_title p:nth-of-type(1) b{
+    color: #000;
+}
+.claue_title p:nth-of-type(2){
+    font: 18px "Poppins", sans-serif;
+    color: #415b5b;
+    margin-left: 40px;
+    line-height: 27px;
+}
+.claue_title ul{
+    font: 18px "Poppins", sans-serif;
+    color: #415b5b;
+    margin-left: 30px;
+}
+.claue_title li{
+    margin-bottom: 7px;
+}
+.claue_title p:nth-of-type(3){
+    font: 17px "Poppins", sans-serif;
+    color: #415b5b;
+    margin-left: 40px;
+}
