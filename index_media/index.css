@@ -1,12 +1,15 @@
 html, body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 header{
     width: 98.5vw;
     height: 54px;
     background-color: #262626;
     position: relative;
+    position: fixed;
+    z-index: 5;
 }
 header img{
     width: 152px;
@@ -165,4 +168,579 @@ header a:hover{
     font: 17px "Poppins", sans-serif;
     color: #415b5b;
     margin-left: 40px;
+}
+.demos{
+    background-color: #e7f1f3;
+}
+.claue_2_demos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.claue_2_demos h3{
+    font: 40px "Poppins", sans-serif;
+    color: #606c6c;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.claue_2_demos p{
+    font: 16px "Playfair Display";
+    color: #7e8888;
+    font-style: italic;
+    width: 600px;
+    text-align: center;
+    font-weight: 600;
+    margin-top:0 ;
+    line-height: 25px;
+}
+.photo_container div{
+    display: inline-block;
+    width: 357px;
+    height: 183px;
+    margin: 20px 20px 60px 20px;
+}
+.photo_container{
+    margin-left: 20px;
+}
+.photo_container img{
+    width: 357px;
+    height: 183px;
+}
+.photo_container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    padding-top: 7px;
+    letter-spacing: -1px;
+    font-family:"Poppins", sans-serif ;
+}
+.photo_container div:hover a{
+    color: #337ab7;
+
+}
+.blure1{
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+    transition: 600ms;
+}
+.img-claue1:hover .blure1{
+    background-color: rgba(0, 0, 0, 0.299);
+}
+.img-claue1{
+    position: relative;
+}
+
+.img-claue1 .demo1{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius:25px ;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+
+.img-claue1:hover .demo1{
+    display: block;
+    color: #fff;
+    z-index: 4;
+
+}
+.img-claue1{
+    position: relative;
+}
+.img-claue2{
+    position: relative;
+}
+.img-claue2 .demo2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo1:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+}
+.demo2:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue2:hover .demo2{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure2{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue2:hover .blure2{
+    background-color: #0000004c;
+}
+
+.img-claue3{
+    position: relative;
+}
+.img-claue3 .demo3{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo3:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue3:hover .demo3{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure3{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue3:hover .blure3{
+    background-color: #0000004c;
+}
+.img-claue4{
+    position: relative;
+}
+.img-claue4 .demo4{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo4:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue4:hover .demo4{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure4{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue4:hover .blure4{
+    background-color: #0000004c;
+}
+
+.img-claue5{
+    position: relative;
+}
+.img-claue5 .demo5{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo5:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue5:hover .demo5{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure5{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue5:hover .blure5{
+    background-color: #0000004c;
+}
+
+.img-claue6{
+    position: relative;
+}
+.img-claue6 .demo6{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo6:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue6:hover .demo6{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure6{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue6:hover .blure6{
+    background-color: #0000004c;
+}
+
+.img-claue7{
+    position: relative;
+}
+.img-claue7 .demo7{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo7:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue7:hover .demo7{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure7{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue7:hover .blure7{
+    background-color: #0000004c;
+}
+
+.img-claue8{
+    position: relative;
+}
+.img-claue8 .demo8{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo8:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue8:hover .demo8{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure8{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue8:hover .blure8{
+    background-color: #0000004c;
+}
+
+.img-claue9{
+    position: relative;
+}
+.img-claue9 .demo9{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo9:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue9:hover .demo9{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure9{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue9:hover .blure9{
+    background-color: #0000004c;
+}
+
+.img-claue10{
+    position: relative;
+}
+.img-claue10 .demo10{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo10:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue10:hover .demo10{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure10{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue10:hover .blure10{
+    background-color: #0000004c;
+}
+.img-claue11{
+    position: relative;
+}
+.img-claue11 .demo11{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo11:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue11:hover .demo11{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure11{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue11:hover .blure11{
+    background-color: #0000004c;
+}
+.img-claue12{
+    position: relative;
+}
+.img-claue12 .demo12{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo12:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue12:hover .demo12{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure12{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue12:hover .blure12{
+    background-color: #0000004c;
+}
+.img-claue13{
+    position: relative;
+}
+.img-claue13 .demo13{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:25px ;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+    transition: 600ms;
+}
+.demo13:hover{
+    background-color: #519adb;
+    border-color: #519adb;
+    transition: 500ms;
+}
+
+.img-claue13:hover .demo13{
+    display: block;
+    color: #fff;
+    z-index: 4;
+}
+.blure13{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 600ms;
+    
+}
+.img-claue13:hover .blure13{
+    background-color: #0000004c;
+}
+.demos-title h2{
+    font: 40px "Poppins", sans-serif;
+    color: #606c6c;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.demos-title p{
+    font: 16px "Playfair Display";
+    color: #7e8888;
+    font-style: italic;
+    width: 600px;
+    text-align: center;
+    font-weight: 600;
+    margin-top:0 ;
+    line-height: 25px;
+
+}
+
+.demos-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
