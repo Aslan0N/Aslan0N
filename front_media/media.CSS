@@ -54,7 +54,6 @@ img:nth-of-type(4){
     height: 500px;
     border-radius: 50%;
     z-index: 1;
-    overflow: hidden;
 }
 
 .main{
@@ -81,7 +80,6 @@ img:nth-of-type(4){
     width: 1px;    
     height: 1px;
     transition: 2s;
-
 }
 .main:hover .title{
     width: 668px;
