@@ -1,5 +1,5 @@
 # 💫 About Me:
-Discipline is my red line. I am open to innovations and love to develop.<br>
+Discipline is my red line.  I am open to innovations and love to develop.<br>
 
 
 ## 🌐 Socials:
